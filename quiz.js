@@ -20,7 +20,7 @@ function checkAnswer() {
     feedback.textContent = "Correct! Well done.";
     feedback.style.color = "green";
   } else {
-    feedback.textContent = "That's incorrect. Try again.";
+    feedback.textContent = "That's incorrect. Try again!"; // Fixed to match exactly
     feedback.style.color = "red";
   }
 }
